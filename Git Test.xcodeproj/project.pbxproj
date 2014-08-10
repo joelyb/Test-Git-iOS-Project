@@ -21,6 +21,7 @@
 		1DAAC3661997E76800D68822 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAAC3481997E76800D68822 /* UIKit.framework */; };
 		1DAAC36E1997E76800D68822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DAAC36C1997E76800D68822 /* InfoPlist.strings */; };
 		1DAAC3701997E76800D68822 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC36F1997E76800D68822 /* Git_TestTests.m */; };
+		1DAAC37B1997EA9100D68822 /* JBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC37A1997EA9100D68822 /* JBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		1DAAC36B1997E76800D68822 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		1DAAC36D1997E76800D68822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1DAAC36F1997E76800D68822 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		1DAAC3791997EA9100D68822 /* JBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTest.h; sourceTree = "<group>"; };
+		1DAAC37A1997EA9100D68822 /* JBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		1DAAC3381997E76800D68822 = {
 			isa = PBXGroup;
 			children = (
+				1DAAC3791997EA9100D68822 /* JBTest.h */,
+				1DAAC37A1997EA9100D68822 /* JBTest.m */,
 				1DAAC34A1997E76800D68822 /* Git Test */,
 				1DAAC3691997E76800D68822 /* Git TestTests */,
 				1DAAC3431997E76800D68822 /* Frameworks */,
@@ -252,6 +257,7 @@
 				1DAAC3551997E76800D68822 /* JBAppDelegate.m in Sources */,
 				1DAAC35B1997E76800D68822 /* JBViewController.m in Sources */,
 				1DAAC3511997E76800D68822 /* main.m in Sources */,
+				1DAAC37B1997EA9100D68822 /* JBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
