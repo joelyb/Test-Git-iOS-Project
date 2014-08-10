@@ -22,6 +22,7 @@
 		1DAAC36E1997E76800D68822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1DAAC36C1997E76800D68822 /* InfoPlist.strings */; };
 		1DAAC3701997E76800D68822 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC36F1997E76800D68822 /* Git_TestTests.m */; };
 		1DAAC37B1997EA9100D68822 /* JBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC37A1997EA9100D68822 /* JBTest.m */; };
+		1DAAC37E1997EB7400D68822 /* JBTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DAAC37D1997EB7400D68822 /* JBTest2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		1DAAC36F1997E76800D68822 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
 		1DAAC3791997EA9100D68822 /* JBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBTest.h; sourceTree = "<group>"; };
 		1DAAC37A1997EA9100D68822 /* JBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBTest.m; sourceTree = "<group>"; };
+		1DAAC37C1997EB7400D68822 /* JBTest2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBTest2.h; path = ../JBTest2.h; sourceTree = "<group>"; };
+		1DAAC37D1997EB7400D68822 /* JBTest2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBTest2.m; path = ../JBTest2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 		1DAAC34A1997E76800D68822 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				1DAAC37C1997EB7400D68822 /* JBTest2.h */,
+				1DAAC37D1997EB7400D68822 /* JBTest2.m */,
 				1DAAC3531997E76800D68822 /* JBAppDelegate.h */,
 				1DAAC3541997E76800D68822 /* JBAppDelegate.m */,
 				1DAAC3561997E76800D68822 /* Main.storyboard */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1DAAC3551997E76800D68822 /* JBAppDelegate.m in Sources */,
+				1DAAC37E1997EB7400D68822 /* JBTest2.m in Sources */,
 				1DAAC35B1997E76800D68822 /* JBViewController.m in Sources */,
 				1DAAC3511997E76800D68822 /* main.m in Sources */,
 				1DAAC37B1997EA9100D68822 /* JBTest.m in Sources */,
